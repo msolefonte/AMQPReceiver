@@ -1,0 +1,23 @@
+{
+  "name": "amqp-receiver",
+  "version": "1.0.0",
+  "description": "API to receive AMQP messages with persistence transparently",
+  "keywords": [
+    "amqp",
+    "receiver",
+    "messaging",
+    "rabbitmq",
+    "persistence",
+    "amqp api"
+  ],
+  "homepage": "https://github.com/WolfyLPDC/AMQPReceiver",
+  "bugs": {
+    "url": "https://github.com/WolfyLPDC/AMQPReceiver/issues",
+    "email": "marcsole@mailbox.org"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Marc Solé Fonte",
+    "email": "marcsole@mailbox.org"
+  },
+}
