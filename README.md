@@ -1,4 +1,4 @@
-# AMQPReceiver 1.0.0 library for Node.js
+# AMQPReceiver 1.0.1 library for Node.js
 
 AMQPReceiver is a library that allows developers to receive AMQP messages with persistence transparently
 
@@ -73,4 +73,5 @@ This project is licensed under the MIT License - see the
 
 ## Changelog
 
-- 1.0 - 27/08/2018 - Initial release
+- 1.0.0 - 27/08/2018 - Initial release
+- 1.0.1 - 27/08/2018 - Solves a minor bug with the logger
