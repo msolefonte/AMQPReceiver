@@ -10,7 +10,7 @@ purposes. See deployment for notes on how to deploy the project on a live system
 ### Dependences
 
 AMQPReceiver requires the packages:
-- [amqplib](https://github.com/squaremo/amqp.node) - To interact with the AMQP SeServer
+- [amqplib](https://github.com/squaremo/amqp.node) - To interact with the AMQP Server
 
 [Optional]
 - [winston](https://github.com/winstonjs/winston) - To add a log to AMQPReceiver. By default there is no log
@@ -46,13 +46,14 @@ before the initialization can be lost.
 ## Running the tests
 
 If you want to execute tests to try AMQPReceiver you have the folder `./tests/` which includes two tests:
- * [starting_server.js](tests/starting_server.js) - Example of showing on console messages received from a default 
- RabbitMQ Server
- * [stoping_server.js](tests/stoping_server.js) - Example of starting and clossing a connection to a default 
- RabbitMQ Server
- * [using_custom_amqp_server.js](tests/using_custom_amqp_server.js) - Example of showing on console messages received
-  from a custom AMQP Server
- * [using_logger.js](tests/using_logger.js) - Example of logging using a Winston logger
+ * [starting_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/starting_server.js) - Example of 
+ showing on console messages received from a default RabbitMQ Server
+ * [stoping_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/stoping_server.js) - Example of 
+ starting and clossing a connection to a default RabbitMQ Server
+ * [using_custom_amqp_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/using_custom_amqp_server.js) - 
+ Example of showing on console messages received from a custom AMQP Server
+ * [using_logger.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/using_logger.js) - Example of logging 
+ using a Winston logger
  
 **__IMPORTANT!!__** To test `using_logger.js` you have to install Winston which is not a dependence by default
 
@@ -62,7 +63,8 @@ If you want to execute tests to try AMQPReceiver you have the folder `./tests/` 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the 
+[LICENSE.md](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
