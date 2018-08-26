@@ -48,7 +48,7 @@ before the initialization can be lost.
 If you want to execute tests to try AMQPReceiver you have the folder `./tests/` which includes two tests:
  * [starting_server.js](tests/starting_server.js) - Example of showing on console messages received from a default 
  RabbitMQ Server
- * [stoping_server.js](tests/stoping_Server.js) - Example of starting and clossing a connection to a default 
+ * [stoping_server.js](tests/stoping_server.js) - Example of starting and clossing a connection to a default 
  RabbitMQ Server
  * [using_custom_amqp_server.js](tests/using_custom_amqp_server.js) - Example of showing on console messages received
   from a custom AMQP Server
