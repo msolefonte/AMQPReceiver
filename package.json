@@ -20,4 +20,7 @@
     "name": "Marc Solé Fonte",
     "email": "marcsole@mailbox.org"
   },
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
 }
