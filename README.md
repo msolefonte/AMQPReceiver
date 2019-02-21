@@ -46,25 +46,25 @@ before the initialization can be lost.
 ## Running the tests
 
 If you want to execute tests to try AMQPReceiver you have the folder `./tests/` which includes two tests:
- * [starting_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/starting_server.js) - Example of 
+ * [starting_server.js](https://github.com/msolefonte/AMQPReceiver/blob/master/tests/starting_server.js) - Example of 
  showing on console messages received from a default RabbitMQ Server
- * [stoping_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/stoping_server.js) - Example of 
+ * [stoping_server.js](https://github.com/msolefonte/AMQPReceiver/blob/master/tests/stoping_server.js) - Example of 
  starting and clossing a connection to a default RabbitMQ Server
- * [using_custom_amqp_server.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/using_custom_amqp_server.js) - 
+ * [using_custom_amqp_server.js](https://github.com/msolefonte/AMQPReceiver/blob/master/tests/using_custom_amqp_server.js) - 
  Example of showing on console messages received from a custom AMQP Server
- * [using_logger.js](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/tests/using_logger.js) - Example of logging 
+ * [using_logger.js](https://github.com/msolefonte/AMQPReceiver/blob/master/tests/using_logger.js) - Example of logging 
  using a Winston logger
  
 **__IMPORTANT!!__** To test `using_logger.js` you have to install Winston which is not a dependence by default
 
 ## Authors
 
-* **Marc Solé Fonte** - *Initial work* - [WolfyLPDC](https://github.com/WolfyLPDC/)
+* **Marc Solé Fonte** - *Initial work* - [msolefonte](https://github.com/msolefonte/)
 
 ## License
 
 This project is licensed under the MIT License - see the 
-[LICENSE.md](https://github.com/WolfyLPDC/AMQPReceiver/blob/master/LICENSE.md) file for details
+[LICENSE.md](https://github.com/msolefonte/AMQPReceiver/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
